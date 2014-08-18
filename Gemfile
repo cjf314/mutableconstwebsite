@@ -7,7 +7,7 @@ if RUBY_PLATFORM !~ /win|ming/i
 	gem 'passenger'            #Using passenger webserver
 end
 
-gem 'sqlite3'                  # Use sqlite3 as the database for Active Record
+gem 'pg'
 
 gem 'sass-rails', '~> 4.0.3'   # Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'     # Use Uglifier as compressor for JavaScript assets
